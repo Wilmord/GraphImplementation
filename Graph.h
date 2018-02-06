@@ -18,7 +18,7 @@ public:
 	Graph& operator=(Graph& other);
 	Graph& operator=(Graph&& other);
 	void addEdge(int src, int dest);
-	void printGraph() const; 	// A utility function to print the adjacenncy list representation of graph
+	void printGraph() const; 	// A utility function to print the adjacency list representation of graph
 	const std::list<int>* getNodeList() const;
 	const int getNodeCount() const;
 private:
